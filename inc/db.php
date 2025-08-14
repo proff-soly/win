@@ -1,9 +1,10 @@
 <?php
 
-$conn = mysqli_connect('127.0.0.1','root','scar','win');
+$conn = mysqli_connect('127.0.0.1','*******','******','win');
     if(!$conn){
         echo 'Error' . mysqli_connect_error();
     }
+
 
 
 ?>
